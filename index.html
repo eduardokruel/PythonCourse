@@ -72,11 +72,69 @@ print(name)</pre>
           </ul>
           <p>Feel free to experiment with any of these to see the outputs inside a input function (without quotes)</p>
 
-          <h3 class="subtitle">Quiz!</h3>
-          <a href="quiz.html">Click here</a> to go the quiz! You should score at least 60%!
-          <h3 class="subtitle">Additional Resources</h3>
-          <a href="https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf">Click here</a> for a very useful Python cheat sheet that will save you countless minutes of googling!
+          <div class="example">
+            <h4>Example</h4>
+            <div class="code">
+              <pre>
+print(5>4)</pre>
+            </div>
+          </div>
 
+          <h3 class="subtitle">Functions</h3>
+
+          <p>Functions are on of the core parts of many programming languages as they allow you to repeat tasks that are common. Functions require a few things:</p>
+          <ul>
+            <li>The key word <strong>def</strong> before the function name.</li>
+            <li>A set of parenthesis with any parameters inside of them</li>
+            <li>A colon after the second parenthesis.</li>
+            <li>Code inside the function should be indented.</li>
+            <li>A <strong>return</strong> statement with what to return.</li>
+          </ul>
+
+          <div class="example">
+            <h4>Example</h4>
+            <div class="code">
+              <pre>
+def multiplyByTwo(item):
+  return item * 2</pre>
+            </div>
+          </div>
+          <p>Pro Tip: Test out this function by using the following statement:</p>
+          <div class="example">
+            <h4>Example</h4>
+            <div class="code">
+              <pre>
+print(multiplyByTwo(4))</pre>
+            </div>
+          </div>
+          <p>The result should be 4!</p>
+          <h3 class="subtitle">Libraries</h3>
+          <p>Libraries are one of the reasons that Python is becoming such a dominant language. There are many ways to import libraries in Python, here is the most common way:</p>
+          <div class="example">
+            <h4>Example</h4>
+            <div class="code">
+              <pre>
+import math as math</pre>
+            </div>
+          </div>
+          <p>Let's reread this code, you just imported the library math, and you will reference it as math as well. For example, this math library has many ready-to-go function (complete list down below on the documentation), I will use the variable pi for example.</p>
+          <div class="example">
+          <h4>Example</h4>
+          <div class="code">
+            <pre>
+import math as math
+print(math.pi)</pre>
+          </div>
+          </div>
+          <p>From the result we can see that worked as it printed Pi! As we will reference this library as math, every reference to a variable or function of that library will require that we use math. before them as shown above.</p>
+          <p><a href="https://docs.python.org/3/library/math.html">Click here</a> to access the official Math library documentation.</p>
+
+          <h3 class="subtitle">Quiz!</h3>
+          <p><a href="quiz.html">Click here</a> to go the quiz! You should score at least 60%!</p>
+          <h3 class="subtitle">Additional Resources</h3>
+          <p><a href="https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf">Click here</a> for a very useful Python cheat sheet that will save you countless minutes of googling!</p>
+          <p><a href="https://automatetheboringstuff.com/chapter0/">Click here</a> for a very well known Python tutorial which takes things to the next level. A must for any Python programmer!</p>
+          <p><a href="https://docs.python.org/3/tutorial/index.html">Click here</a> to access the official Python documentation that should have everything you'd need in a more complete manner.</p>
         </div>
         <div class="col-6">
           <iframe class="fixed" id="interpreter" height="800px" width="45%" src="https://repl.it/@EduardoKruel/CalculatingTechnicalEvents?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
