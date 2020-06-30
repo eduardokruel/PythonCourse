@@ -1,3 +1,5 @@
 # PythonCourse
 
-Design Project
+Website designed to teach the basics of Python
+
+School Design Project
